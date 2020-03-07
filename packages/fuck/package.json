@@ -3,5 +3,6 @@
   "version": "1.0.2",
   "dependencies": {
     "@xyx/core": "^1.0.2"
-  }
+  },
+  "gitHead": "70091239e98ef5d0369b75f32e197cf4fd3fe0f8"
 }
