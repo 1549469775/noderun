@@ -1,0 +1,7 @@
+{
+  "name": "@xyx/fuck",
+  "version": "1.0.0",
+  "dependencies": {
+    "@xyx/core": "^1.0.0"
+  }
+}
