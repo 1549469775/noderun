@@ -2,8 +2,11 @@
   "name": "@noderun/core",
   "version": "1.0.10",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "gitHead": "bfd07d66a49c58d7ed5296354efaa34e2ac689ac"
+  "gitHead": "6a82470b3220c91be8520761fa9692b3c7dcbbe4"
 }

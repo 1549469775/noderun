@@ -23,6 +23,9 @@ files.forEach(shortName => {
             main: 'index.js',
             module: `dist/${shortName}.esm.js`,
             typings: 'dist/index.d.ts',
+            publishConfig: {
+                "access": "public"
+            },
             // repository: {
             //     type: 'git',
             //     url: 'git+https://github.com/vuejs/vue.git'
