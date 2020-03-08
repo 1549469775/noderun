@@ -1,6 +1,6 @@
 {
   "name": "@noderun/core",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
