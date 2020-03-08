@@ -3,13 +3,7 @@
   "scripts": {
     "dev": "node scripts/dev.js",
     "build": "node scripts/build.js xyx-tool",
-    "bootstrap": "node scripts/bootstrap.js",
-
-    "commit": "git add .&&git cz",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md && git cz",
-    "alpha": "standard-version --prerelease alpha -m 'alpha内测版本'",
-    "beta": "standard-version --prerelease beta -m 'beta公测版本'",
-    "release": "standard-version --release-as minor --tag-prefix 'stable-' -m 'stable稳定版本'"
+    "bootstrap": "node scripts/bootstrap.js"
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.0.1",
