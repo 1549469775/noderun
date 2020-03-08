@@ -5,5 +5,5 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "gitHead": "1a8e463d43ee9567f9dcefe81914563aec9dc194"
+  "gitHead": "fc85dd210929e66970117391f7583711c303e68a"
 }
