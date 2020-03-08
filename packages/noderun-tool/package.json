@@ -1,0 +1,27 @@
+{
+  "name": "@noderun/tool",
+  "version": "1.0.6",
+  "main": "index.js",
+  "unpkg": "dist/noderun-tool.umd.js",
+  "jsdelivr": "dist/noderun-tool.umd.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "index.js",
+    "dist/*"
+  ],
+  "buildOptions": {
+    "name": "noderun-tool",
+    "formats": [
+      "esm",
+      "cjs",
+      "umd",
+      "esm-browser"
+    ]
+  },
+  "dependencies": {
+    "@noderun/core": "^1.0.6"
+  },
+  "sideEffects": false,
+  "gitHead": "da665c283ad3b1d61c048e2544189afc27657979"
+}
