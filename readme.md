@@ -5,3 +5,8 @@
 ```shell script
 npm publish --access public
 ```
+
+
+LICENSE
+
+> https://github.com/remy/mit-license
