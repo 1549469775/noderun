@@ -3,6 +3,8 @@ import isMobile from "./mobile/isMobile"
 import whichOS from "./os/whichOS"
 import isWx from "./wx/isWx"
 
+
+
 export default {
     browser: {
         whichBrowser
