@@ -25,7 +25,7 @@ const packageOptions = pkg.buildOptions || {}
 const aliasOptions = { resolve: ['.ts'] }
 fs.readdirSync(packagesDir).forEach(dir => {
     if (fs.statSync(path.resolve(packagesDir, dir)).isDirectory()) {
-        aliasOptions[`@xyx/${dir}`] = path.resolve(packagesDir, `${dir}/src/index`)
+        aliasOptions[`@noderun/${dir}`] = path.resolve(packagesDir, `${dir}/src/index`)
     }
 })
 

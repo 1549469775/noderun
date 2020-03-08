@@ -13,7 +13,7 @@ files.forEach(shortName => {
         return
     }
 
-    const name = shortName === `xyx` ? shortName : `@xyx/${shortName}`
+    const name = shortName === `noderun` ? shortName : `@noderun/${shortName}`
     const pkgPath = path.join(packagesDir, shortName, `package.json`)
     if (args.force || !fs.existsSync(pkgPath)) {
         const json = {

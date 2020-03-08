@@ -36,7 +36,7 @@ async function build(target) {
     ], {stdio: 'inherit'})
 
     const dtsOptions = {
-        name: target === 'xyx' ? target : `@xyx/${target}`,
+        name: target === 'noderun' ? target : `@noderun/${target}`,
         main: `${pkgDir}/dist/packages/${target}/src/index.d.ts`,
         out: `${pkgDir}/dist/index.d.ts`
     }

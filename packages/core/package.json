@@ -1,12 +1,9 @@
 {
-  "name": "@xyx/core",
+  "name": "@noderun/core",
   "version": "1.0.5",
   "main": "index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "rollup --config ./rollup.config.js"
-  },
   "sideEffects": false,
-  "gitHead": "fe2937a208cdc051e9161c6745e1bd2690296959"
+  "gitHead": "da665c283ad3b1d61c048e2544189afc27657979"
 }

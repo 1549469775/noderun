@@ -41,7 +41,7 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@xyx/*": [
+      "@noderun/*": [
         "packages/*/src"
       ]
     }
