@@ -1,6 +1,34 @@
 {
   "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js xyx-tool",
+    "bootstrap": "node scripts/bootstrap.js",
+
+    "commit": "git add .&&git cz",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md && git cz",
+    "alpha": "standard-version --prerelease alpha -m 'alpha内测版本'",
+    "beta": "standard-version --prerelease beta -m 'beta公测版本'",
+    "release": "standard-version --release-as minor --tag-prefix 'stable-' -m 'stable稳定版本'"
+  },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "@rollup/plugin-alias": "^3.0.1",
+    "lerna": "^3.20.2",
+    "rollup": "^1.20.0",
+    "rollup-plugin-replace": "^2.2.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-replace": "^2.3.1",
+    "@rollup/plugin-typescript": "^4.0.0",
+    "chalk": "latest",
+    "dts-bundle": "^0.7.3",
+    "execa": "latest",
+    "fs-extra": "latest",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.3",
+    "minimist": "latest"
   }
 }
