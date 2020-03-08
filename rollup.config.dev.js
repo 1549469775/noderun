@@ -1,14 +1,10 @@
 const typescript = require('@rollup/plugin-typescript');
 const json = require('@rollup/plugin-json');
 const replace = require('@rollup/plugin-replace');
-import {version} from './packages/noderun-tool/package.json';
-
-if (!process.env.TARGET) {
-    throw new Error('TARGET package must be specified via --environment flag.')
-}
+import {version} from './packages/tool/package.json';
 
 export default {
-    input: './packages/noderun-tool/src/index.ts',
+    input: './packages/tool/src/index.ts',
     external: true,
     plugins: [
         typescript({
@@ -25,12 +21,12 @@ export default {
         {
             name: 'XyxTool',
             sourcemap: true,
-            file: './packages/noderun-tool/dist/noderun-tool.js',
+            file: './packages/tool/dist/tool.js',
             format: 'umd' //用模块定义，以amd，cjs 和 iife 为一体
         },
         {
             sourcemap: true,
-            file: './packages/noderun-tool/dist/index.cjs.js',
+            file: './packages/tool/dist/index.cjs.js',
             format: 'cjs',
         }
     ]

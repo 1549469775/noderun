@@ -130,9 +130,7 @@ function createReplacePlugin(isProduction, isBunlderESMBuild) {
             // preserve to be handled by bundlers
             ? `process.env.NODE_ENV !== 'production'`
             // hard coded dev/prod builds
-            : !isProduction,
-        // compatibility builds
-        __COMPAT__: !!process.env.COMPAT
+            : !isProduction
     })
 }
 

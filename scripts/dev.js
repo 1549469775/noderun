@@ -10,7 +10,7 @@
 const execa = require('execa')
 const { targets, fuzzyMatchTarget } = require('./utils')
 
-const target = fuzzyMatchTarget(process.argv[2] || 'noderun-tool')
+const target = fuzzyMatchTarget(process.argv[2] || 'tool')
 
 execa(
     'rollup',
