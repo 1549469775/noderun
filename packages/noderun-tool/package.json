@@ -1,6 +1,6 @@
 {
   "name": "@noderun/tool",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "unpkg": "dist/noderun-tool.umd.js",
   "jsdelivr": "dist/noderun-tool.umd.js",
@@ -20,7 +20,7 @@
     ]
   },
   "dependencies": {
-    "@noderun/core": "^1.0.6"
+    "@noderun/core": "^1.0.7"
   },
   "sideEffects": false,
   "gitHead": "e19986e94d5cf2bb733a0b199df3b338f7f88dc5"
