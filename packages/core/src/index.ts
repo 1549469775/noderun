@@ -1,5 +1,5 @@
 console.log("core")
 
-var b = 44
+var b = 4445
 
 export default b;

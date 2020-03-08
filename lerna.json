@@ -4,6 +4,7 @@
   ],
   "command": {
     "publish": {
+      "message": "chore(release): publish %s",
       "ignoreChanges": [
         "*.md",
         "*.json",
@@ -18,5 +19,8 @@
     }
   },
   "npmClient": "npm",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.6"
 }
