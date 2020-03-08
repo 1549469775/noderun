@@ -5,7 +5,8 @@
     "dev": "node scripts/dev.js",
     "build:dev": "rollup -c rollup.config.dev.js",
     "build": "node scripts/build.js tool",
-    "bootstrap": "node scripts/bootstrap.js"
+    "bootstrap": "node scripts/bootstrap.js",
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.0.1",
