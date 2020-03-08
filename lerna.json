@@ -4,9 +4,7 @@
   ],
   "command": {
     "publish": {
-      "publishConfig": {
-        "access": "public"
-      },
+
       "ignoreChanges": [
         "*.md",
         "*.json",
